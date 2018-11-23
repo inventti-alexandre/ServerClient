@@ -22,6 +22,22 @@ namespace ClienteRest
         {
             Carregar();
         }
+        public async void Carregar()
+        {
+            var resposta = await HttpClient.PostAsync("http://localhost:32403/api/Estoque/Fornecedores", null);
+
+            if (resposta.IsSuccessStatusCode)
+            {
+                var fornsObj = await resposta.Content.ReadAsStringAsync();
+                var fornecedores = JsonConvert.DeserializeObject<Fornecedor[]>(fornsObj).ToList();
+
+                dataGridFornecedores.DataSource = fornecedores;
+            }
+            else
+            {
+                MessageBox.Show("Não foi possível conectar.", "Alerta!");
+            }
+        }
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
@@ -41,6 +57,10 @@ namespace ClienteRest
                 MessageBox.Show("Preencha todos os campos!", "Alerta!");
             }
         }
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
@@ -50,24 +70,7 @@ namespace ClienteRest
 
                 Excluir(forn);
             }
-        }
-
-        public async void Carregar()
-        {
-            var resposta = await HttpClient.PostAsync("http://localhost:32403/api/Estoque/Fornecedores", null);
-
-            if (resposta.IsSuccessStatusCode)
-            {
-                var fornsObj = await resposta.Content.ReadAsStringAsync();
-                var fornecedores = JsonConvert.DeserializeObject<Fornecedor[]>(fornsObj).ToList();
-
-                dataGridFornecedores.DataSource = fornecedores;
-            }
-            else
-            {
-                MessageBox.Show("Não foi possível conectar.","Alerta!");
-            }
-        }        
+        }              
 
         public async void Gravar(Fornecedor fornecedor)
         {
@@ -90,7 +93,9 @@ namespace ClienteRest
             {
                 MessageBox.Show("Não foi possível conectar.","Alerta!");
             }
-        }        
+        }
+        
+        
 
         public async void Excluir(Fornecedor fornecedor)
         {
@@ -110,6 +115,6 @@ namespace ClienteRest
             {
                 MessageBox.Show("Não foi possível conectar.", "Alerta!");
             }
-        }        
+        }
     }
 }

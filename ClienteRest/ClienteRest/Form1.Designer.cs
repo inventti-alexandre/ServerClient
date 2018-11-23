@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dataGridFornecedores = new System.Windows.Forms.DataGridView();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
@@ -35,9 +36,10 @@
             this.btnGravar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.gbFornecedores = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAlterar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridFornecedores)).BeginInit();
             this.gbFornecedores.SuspendLayout();
             this.SuspendLayout();
@@ -85,7 +87,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(17, 333);
+            this.btnExcluir.Location = new System.Drawing.Point(17, 371);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(291, 23);
             this.btnExcluir.TabIndex = 5;
@@ -95,6 +97,7 @@
             // 
             // gbFornecedores
             // 
+            this.gbFornecedores.Controls.Add(this.btnAlterar);
             this.gbFornecedores.Controls.Add(this.label3);
             this.gbFornecedores.Controls.Add(this.label2);
             this.gbFornecedores.Controls.Add(this.label1);
@@ -108,25 +111,7 @@
             this.gbFornecedores.Size = new System.Drawing.Size(323, 426);
             this.gbFornecedores.TabIndex = 6;
             this.gbFornecedores.TabStop = false;
-            this.gbFornecedores.Text = "Inserir Fornecedor";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Nome:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Cidade:";
+            this.gbFornecedores.Text = "Crud Fornecedor";
             // 
             // label3
             // 
@@ -137,6 +122,34 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Estado:";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 112);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Cidade:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nome:";
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Location = new System.Drawing.Point(17, 321);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(291, 23);
+            this.btnAlterar.TabIndex = 9;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,9 +157,10 @@
             this.ClientSize = new System.Drawing.Size(821, 450);
             this.Controls.Add(this.gbFornecedores);
             this.Controls.Add(this.dataGridFornecedores);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Cliente alimentado por um ServerRest";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridFornecedores)).EndInit();
             this.gbFornecedores.ResumeLayout(false);
@@ -167,6 +181,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAlterar;
     }
 }
 
