@@ -1,0 +1,36 @@
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\ClienteRest.exe.config
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\ClienteRest.exe
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\ClienteRest.pdb
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\Newtonsoft.Json.dll
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Extensions.dll
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Primitives.dll
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\Newtonsoft.Json.xml
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Extensions.xml
+D:\Tadeu\Ws\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Primitives.xml
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.App.config
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csprojAssemblyReference.cache
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.Form1.resources
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.Properties.Resources.resources
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.GenerateResource.cache
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.CoreCompileInputs.cache
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.CopyComplete
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.exe
+D:\Tadeu\Ws\ClienteRest\ClienteRest\obj\Debug\ClienteRest.pdb
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\ClienteRest.exe.config
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\ClienteRest.exe
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\ClienteRest.pdb
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\Newtonsoft.Json.dll
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Extensions.dll
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Primitives.dll
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\Newtonsoft.Json.xml
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Extensions.xml
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\bin\Debug\System.Net.Http.Primitives.xml
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.App.config
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csprojAssemblyReference.cache
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.Form1.resources
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.Properties.Resources.resources
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.GenerateResource.cache
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.CoreCompileInputs.cache
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.csproj.CopyComplete
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.exe
+E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ClienteRest\ClienteRest\obj\Debug\ClienteRest.pdb
