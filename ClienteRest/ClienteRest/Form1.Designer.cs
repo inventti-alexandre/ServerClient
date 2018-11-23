@@ -36,10 +36,13 @@
             this.btnGravar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.gbFornecedores = new System.Windows.Forms.GroupBox();
+            this.btnAlterar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnConfAlterar = new System.Windows.Forms.Button();
+            this.btnCancAlterar = new System.Windows.Forms.Button();
+            this.txtId = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridFornecedores)).BeginInit();
             this.gbFornecedores.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +80,7 @@
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(17, 271);
+            this.btnGravar.Location = new System.Drawing.Point(17, 253);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(291, 23);
             this.btnGravar.TabIndex = 4;
@@ -87,7 +90,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(17, 371);
+            this.btnExcluir.Location = new System.Drawing.Point(17, 282);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(291, 23);
             this.btnExcluir.TabIndex = 5;
@@ -97,6 +100,9 @@
             // 
             // gbFornecedores
             // 
+            this.gbFornecedores.Controls.Add(this.txtId);
+            this.gbFornecedores.Controls.Add(this.btnCancAlterar);
+            this.gbFornecedores.Controls.Add(this.btnConfAlterar);
             this.gbFornecedores.Controls.Add(this.btnAlterar);
             this.gbFornecedores.Controls.Add(this.label3);
             this.gbFornecedores.Controls.Add(this.label2);
@@ -113,10 +119,20 @@
             this.gbFornecedores.TabStop = false;
             this.gbFornecedores.Text = "Crud Fornecedor";
             // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Location = new System.Drawing.Point(17, 311);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(291, 23);
+            this.btnAlterar.TabIndex = 9;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 189);
+            this.label3.Location = new System.Drawing.Point(14, 183);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 8;
@@ -125,7 +141,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 112);
+            this.label2.Location = new System.Drawing.Point(14, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 7;
@@ -134,21 +150,38 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 31);
+            this.label1.Location = new System.Drawing.Point(14, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Nome:";
             // 
-            // btnAlterar
+            // btnConfAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(17, 321);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(291, 23);
-            this.btnAlterar.TabIndex = 9;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            this.btnConfAlterar.Location = new System.Drawing.Point(17, 340);
+            this.btnConfAlterar.Name = "btnConfAlterar";
+            this.btnConfAlterar.Size = new System.Drawing.Size(291, 23);
+            this.btnConfAlterar.TabIndex = 10;
+            this.btnConfAlterar.Text = "Confirmar Alteração";
+            this.btnConfAlterar.UseVisualStyleBackColor = true;
+            this.btnConfAlterar.Click += new System.EventHandler(this.btnConfAlterar_Click);
+            // 
+            // btnCancAlterar
+            // 
+            this.btnCancAlterar.Location = new System.Drawing.Point(17, 370);
+            this.btnCancAlterar.Name = "btnCancAlterar";
+            this.btnCancAlterar.Size = new System.Drawing.Size(291, 23);
+            this.btnCancAlterar.TabIndex = 11;
+            this.btnCancAlterar.Text = "Cancelar Alteração";
+            this.btnCancAlterar.UseVisualStyleBackColor = true;
+            this.btnCancAlterar.Click += new System.EventHandler(this.btnCancAlterar_Click);
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(17, 400);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(291, 20);
+            this.txtId.TabIndex = 12;
             // 
             // Form1
             // 
@@ -182,6 +215,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.Button btnCancAlterar;
+        private System.Windows.Forms.Button btnConfAlterar;
+        private System.Windows.Forms.TextBox txtId;
     }
 }
 
