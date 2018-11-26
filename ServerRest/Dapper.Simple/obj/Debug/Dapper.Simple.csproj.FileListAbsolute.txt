@@ -32,3 +32,20 @@ E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\Serv
 E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.csproj.CopyComplete
 E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.dll
 E:\2.T.I\Análise e Desenvolvimento de Sistemas\29 - Web Services\#Projetos\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.pdb
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Simple.dll.config
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Simple.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Simple.pdb
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Contrib.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Extension.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Fluent.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\MySql.Data.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Newtonsoft.Json.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.xml
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Dapper.Contrib.xml
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\bin\Debug\Newtonsoft.Json.xml
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.csprojAssemblyReference.cache
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.csproj.CoreCompileInputs.cache
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.csproj.CopyComplete
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.dll
+C:\Users\l_san\Documents\GitHub\ServerClient\ServerRest\Dapper.Simple\obj\Debug\Dapper.Simple.pdb

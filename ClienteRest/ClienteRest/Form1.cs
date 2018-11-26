@@ -18,7 +18,7 @@ namespace ClienteRest
             HttpClient = new HttpClient();
             btnConfAlterar.Hide();
             btnCancAlterar.Hide();
-            txtId.Hide();
+            lblId.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace ClienteRest
             {
                 var forn = (Fornecedor)dataGridFornecedores.SelectedRows[0].DataBoundItem;
 
-                txtId.Text = forn.Id.ToString();
+                lblId.Text = forn.Id.ToString();
                 txtNome.Text = forn.Nome;
                 txtCidade.Text = forn.Cidade;
                 txtEstado.Text = forn.Estado;
@@ -84,7 +84,7 @@ namespace ClienteRest
             {
                 var forn = new Fornecedor()
                 {
-                    Id = Convert.ToInt32(txtId.Text),
+                    Id = Convert.ToInt32(lblId.Text),
                     Nome = txtNome.Text,
                     Cidade = txtCidade.Text,
                     Estado = txtEstado.Text
@@ -100,7 +100,7 @@ namespace ClienteRest
 
         private void btnCancAlterar_Click(object sender, EventArgs e)
         {
-            txtId.Clear();
+            lblId.Text = "";
             txtNome.Clear();
             txtCidade.Clear();
             txtEstado.Clear();
@@ -132,7 +132,7 @@ namespace ClienteRest
 
             if (resposta.IsSuccessStatusCode)
             {
-                txtId.Clear();
+                lblId.Text = "";
                 txtNome.Clear();
                 txtCidade.Clear();
                 txtEstado.Clear();
@@ -156,7 +156,7 @@ namespace ClienteRest
 
             if (resposta.IsSuccessStatusCode)
             {
-                txtId.Clear();
+                lblId.Text = "";
                 txtNome.Clear();
                 txtCidade.Clear();
                 txtEstado.Clear();
