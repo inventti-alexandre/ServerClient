@@ -36,13 +36,13 @@
             this.btnGravar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.gbFornecedores = new System.Windows.Forms.GroupBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.btnCancAlterar = new System.Windows.Forms.Button();
             this.btnConfAlterar = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblId = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridFornecedores)).BeginInit();
             this.gbFornecedores.SuspendLayout();
             this.SuspendLayout();
@@ -53,6 +53,7 @@
             this.dataGridFornecedores.Location = new System.Drawing.Point(13, 13);
             this.dataGridFornecedores.MultiSelect = false;
             this.dataGridFornecedores.Name = "dataGridFornecedores";
+            this.dataGridFornecedores.ReadOnly = true;
             this.dataGridFornecedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridFornecedores.Size = new System.Drawing.Size(460, 425);
             this.dataGridFornecedores.TabIndex = 0;
@@ -119,6 +120,15 @@
             this.gbFornecedores.TabStop = false;
             this.gbFornecedores.Text = "Crud Fornecedor";
             // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(14, 26);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(19, 13);
+            this.lblId.TabIndex = 12;
+            this.lblId.Text = "Id:";
+            // 
             // btnCancAlterar
             // 
             this.btnCancAlterar.Location = new System.Drawing.Point(17, 387);
@@ -175,15 +185,6 @@
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Nome:";
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(14, 26);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(19, 13);
-            this.lblId.TabIndex = 12;
-            this.lblId.Text = "Id:";
             // 
             // Form1
             // 
